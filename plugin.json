@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "aalto",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Search, save, import and export the products in your design studio's Aalto library.",
   "author": {
     "name": "Aalto",
@@ -104,7 +104,7 @@
         "commerce_description": "Aalto does not sell products or take payments through this plugin. It stores product references a designer saved from supplier websites."
       },
       "publication": {
-        "release_notes": "Updates the plugin description to list Cursor and Grok Build. No change to tools or skills."
+        "release_notes": "Lists Cursor and Grok Build as supported apps. Project budgets now report a total per currency, say whether it is ex or inc tax, and count the items left out of the total. Saving a product from a link can now add it to a named project and section."
       }
     }
   }
