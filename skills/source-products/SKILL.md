@@ -26,7 +26,7 @@ Before proposing products for a room, call `aalto_list_collections` to find the 
 Needs read and change access.
 
 1. If the user named a project or room, find its `collection_id` with `aalto_list_collections`. Never guess an id.
-2. Call `aalto_save_product_from_url` with the link. Aalto reads the page and fills in the name, brand, price, images and specs.
+2. Call `aalto_save_product_from_url` with the link, plus `collection_id` and `section` if the user named a room or section. Aalto reads the page and fills in the name, brand, price, images and specs.
 3. Report what was filled in. If `extraction_status` is `pending`, say the details are still being read and check once with `aalto_get_product`. If it is `failed`, say the supplier's page could not be read and offer to create the product from details the user gives.
 
 Each new link saved this way uses one of the workspace's monthly AI product imports. A link that is already in the library uses none. If the tool reports `quota`, tell the user what the message says and when it resets.

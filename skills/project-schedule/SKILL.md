@@ -29,11 +29,11 @@ Call `aalto_get_collection_context` for the collection. It returns the budget ro
 
 Answer the question the user asked, with numbers from the response:
 
-- **Budget**: budget, total so far, and what remains. Aalto converts currencies; state the currency shown.
+- **Budget**: budget, total so far, and what remains. The total is quantity × price for every product in the collection, whatever its status, in the budget's currency only. Currency is per item and mixed currencies stay separate, so state each currency shown. If the budget has `tax_basis`, the project shows tax and the total is ex or inc tax to match: say which.
 - **Status**: how many products are saved, shortlisted, ordered, delivered and installed.
 - **Outstanding**: list the products not yet ordered (saved or shortlisted), with brand and price.
 
-Products without a price are not in the total. Say how many there are instead of treating them as zero.
+Products without a price or in another currency are not in the total. `unconverted_items` counts them: say how many there are instead of treating them as zero.
 
 ## Export
 

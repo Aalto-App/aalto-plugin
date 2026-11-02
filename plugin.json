@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "aalto",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Search, save, import and export the products in your design studio's Aalto library.",
   "author": {
     "name": "Aalto",
@@ -104,7 +104,7 @@
         "commerce_description": "Aalto does not sell products or take payments through this plugin. It stores product references a designer saved from supplier websites."
       },
       "publication": {
-        "release_notes": "Adds tax to the schedule flow: aalto_whoami and aalto_get_collection_context now show your workspace Tax region (VAT, GST or sales tax), and aalto_export_collection takes an optional tax_display (off, exclusive, inclusive or both) for CSV, Excel and PDF schedules. Read tools now declare that they never change or delete anything."
+        "release_notes": "Updates the plugin description to list Cursor and Grok Build. No change to tools or skills."
       }
     }
   }

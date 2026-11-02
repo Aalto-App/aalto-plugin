@@ -2,7 +2,7 @@
 
 Aalto is a product-sourcing workspace for interior designers, architects and creative studios. This plugin connects an AI app to your studio's Aalto library, so you can search, save, import and export products in a conversation.
 
-It works in ChatGPT and Codex, and in Claude (claude.ai, the desktop app, Cowork and Claude Code).
+It works in ChatGPT and Codex, in Claude (claude.ai, the desktop app, Cowork and Claude Code), in Cursor, and in Grok Build.
 
 ## What you can ask
 
