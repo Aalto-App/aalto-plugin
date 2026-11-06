@@ -100,6 +100,7 @@
             }
           ]
         },
+        "demo_recording_url": "https://www.youtube.com/watch?v=U-sVfTTOWsk",
         "commerce": false,
         "commerce_description": "Aalto does not sell products or take payments through this plugin. It stores product references a designer saved from supplier websites."
       },
